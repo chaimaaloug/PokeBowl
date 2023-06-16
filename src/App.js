@@ -1,12 +1,11 @@
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Error from "pages/Error/Error";
-import ProductList from "pages/ProductList/ProductList";
-import ProductDetail from "pages/ProductDetail/ProductDetail";
-import Home from "pages/Home/Home";
-import Contact from "pages/Contact/Contact";
-
+import Home from "./pages/Home/Home"
+import Error from "./pages/Error/Error"
+import ProductList from "./pages/ProductList/ProductList"
+import ProductDetail from "./pages/ProductDetail/ProductDetail"
+import Contact from "./pages/Contact/Contact"
 
 const router = createBrowserRouter([
   {
