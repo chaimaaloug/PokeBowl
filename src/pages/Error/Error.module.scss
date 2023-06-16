@@ -1,0 +1,15 @@
+@import "../../Scss/variables.scss";
+
+.container {
+    text-align: center;
+    font-family: var(--font-primary);
+}
+
+.errorStatus {
+    font-size: 320px;
+    color: var(--clr-primary);
+}
+
+.message{
+    font-size: 30px;
+}
