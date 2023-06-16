@@ -1,0 +1,37 @@
+@import "../../Scss/variables.scss";
+
+.container {
+    padding: 4rem;
+    text-align: center;
+    font-family: var(--font-primary);
+}
+
+.formSubscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.input {
+    height: 55px;
+    width: 400px;
+    border: 1px solid var(--clr-primary);
+    color: var(--textcolor);
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+.button {
+    background-color: var(--clr-primary);
+    margin-left: 1rem;
+    height: 55px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: var(--clr-white);
+    padding: 0 28px;
+    font-size: 18px;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+}
+  
