@@ -1,0 +1,21 @@
+.background {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/background/hero-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80vh;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-primary);
+	height: 80vh;
+}
+
+.title {
+	font-size: 44px;
+	color: white;
+}
+
