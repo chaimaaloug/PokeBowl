@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
-import style from "./Error.module.scss";
-import BackButton from "../../components/BackButton/BackButton";
+import style from "./Error/Error.module.scss";
+import BackButton from "../components/BackButton/BackButton";
 
 const Error = () => {
     const {status} = useRouteError();
