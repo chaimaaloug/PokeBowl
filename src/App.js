@@ -1,14 +1,33 @@
-import Header from 'components/Header/Header';
-import Footer from 'components/Footer/Footer'
-import './App.css';
+
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home/Home"
+import Error from "./pages/Error/Error"
+import ProductList from "./pages/ProductList/ProductList"
+import ProductDetail from "./pages/ProductDetail/ProductDetail"
+import Contact from "./pages/Contact/Contact"
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <Error />
+  },
+  {
+    path: "/product-list",
+    element: <ProductList />,
+  },
+  {
+    path: "/product-detail",
+    element: <ProductDetail />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Footer/>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
-
 export default App;

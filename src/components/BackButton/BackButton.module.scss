@@ -1,0 +1,14 @@
+@import "../../Scss/variables.scss";
+
+.button {
+    padding: 18px 36px;
+    margin-top: 1.90rem;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 30px;
+}
