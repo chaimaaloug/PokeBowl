@@ -1,0 +1,62 @@
+.link {
+    color: var(--clr-primary);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: var(--font-size-14);
+
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &:active {
+        text-decoration: none;
+    }
+
+    &.linkUnderlineNone {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/** 3d effect*/
+.linkHeader {
+    text-decoration: none;
+    background: var(--clr-primary);
+    color: #fff;
+    border: none;
+    height: calc(100% - 5px);
+    outline: none;
+    position: relative;
+    transition: all 0.4s ease;
+    padding: 1rem;
+
+    &:hover {
+        color: #fff;
+        top: 1px;
+      }
+
+    &:active {
+        color: #fff;
+        top: 5px;
+      }
+  }
+
+  .linkHeaderSecondary {
+    background: #fff;
+    color: var(--clr-primary);
+
+    &:hover {
+        color: var(--clr-secondary);
+      }
+
+    &:active {
+        color: var(--clr-secondary);
+      }
+  }
