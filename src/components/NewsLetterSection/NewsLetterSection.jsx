@@ -1,4 +1,4 @@
-import Title from "components/Title/Title";
+import Title from "../Title/Title"
 import style from "./NewsLetterSection.module.scss"
 
 const NewsLetterSection = () => {
