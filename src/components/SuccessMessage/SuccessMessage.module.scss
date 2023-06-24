@@ -1,0 +1,40 @@
+.successPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var( --clr-primary);
+  border-radius: 8px;
+  width: 410px;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.successContent {
+  text-align: center;
+  line-height: 1.4;
+  font-family: var(--font-secondary);
+}
+
+.successIcon {
+  color: var(--clr-white);
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.successContent p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: var( --clr-white);
+}
+
+.closeButton {
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 14px 48px;
+  font-size: 16px;
+  margin-top: 25px;
+}
