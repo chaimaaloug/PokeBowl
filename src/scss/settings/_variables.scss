@@ -1,0 +1,45 @@
+// Variables liées aux fonts.
+
+:root {
+
+    // Fonts
+    --font-primary: 'Quicksand', sans-serif;
+    --font-secondary: 'KoHo', sans-serif;
+
+    //Fonts Sizes
+
+    --font-size-80: 8rem;
+    --font-size-42: 4.2rem;
+    --font-size-32: 3.2rem;
+    --font-size-24: 2.4rem;
+    --font-size-20: 2rem;
+    --font-size-16: 1.6rem;
+    --font-size-14: 1.4rem;
+    --font-size-12: 1.2rem;
+
+    // Colors
+    --clr-primary: #759F01;
+    --clr-secondary: #FCDCC5;
+    --clr-background: #FFF5EC;
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+
+    //Spacing 
+    --spacing-64: 6.4rem;
+    --spacing-32: 3.2rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-2: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+    --spacing-4: 0.4rem;
+
+    //Shadows
+
+    --elevation-2: 0px 0px 0px 0px rgba(46, 49, 75, 0.10), 6px 18px 43px 0px rgba(46, 49, 75, 0.10);
+
+    //Glass
+    --glass: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, #FFFFFF 35.42%);
+    --glassHover: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, #FFFFFF 35.42%);
+}

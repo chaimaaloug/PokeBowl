@@ -6,6 +6,7 @@ import Error from "./pages/Error/Error"
 import ProductList from "./pages/ProductList/ProductList"
 import ProductDetail from "./pages/ProductDetail/ProductDetail"
 import Contact from "./pages/Contact/Contact"
+import './App.scss';
 
 const router = createBrowserRouter([
   {
