@@ -8,14 +8,22 @@ const Footer = () => {
 
     const classes = classNames(
         style.footer, {
-      });
+    });
 
     return (
-        <div className={classes}>
+        <footer className={classes}>
+            <div className={style.newsletter}>
+                <p className={style.newsletterTitle}>Inscrivez-vous à notre newsletter</p>
+                <form action="" method="post" className={style.newsletterForm}>
+                    <label for="mail-newsletter">Votre email</label>
+                    <input type="email" name="mail-newsletter" id="mail-newsletter" />
+                    <button>S'inscrire</button>
+                </form>
+            </div>
             <div className={style.footerContent}>
                 <div>
                     <p className="u-font-700 u-color--bleu-marine-700">
-                    Nos Produits
+                        Nos Produits
                     </p>
                     <div className={style.footerLinks}>
                         <Link url="#" text="Découvrir nos Pokebowls" />
@@ -24,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className="u-font-700 u-color--bleu-marine-700">
-                    Bowl Bliss
+                        Bowl Bliss
                     </p>
                     <div className={style.footerLinks}>
                         <Link url="/about" text="Qui sommes-nous ?" />
@@ -34,23 +42,23 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className="u-font-700 u-color--bleu-marine-700">
-                    Nos réseaux sociaux
+                        Nos réseaux sociaux
                     </p>
                     <div className={style.footerLinks}>
                         <div className={style.mediaLink}>
-                            <Icon name='facebook f' size='large'/>
+                            <Icon name='facebook f' size='large' />
                             <p>Bowl Bliss</p>
                         </div>
                         <div className={style.mediaLink}>
-                            <Icon name='instagram' size='large'/>
+                            <Icon name='instagram' size='large' />
                             <p>@Bowl Bliss</p>
                         </div>
                         <div className={style.mediaLink}>
-                            <Icon name='pinterest' size='large'/>
+                            <Icon name='pinterest' size='large' />
                             <p>Bowl Bliss</p>
                         </div>
                         <div className={style.mediaLink}>
-                            <Icon name='twitter' size='large'/>  
+                            <Icon name='twitter' size='large' />
                             <p>@Bowl Bliss</p>
                         </div>
                     </div>
@@ -62,7 +70,7 @@ const Footer = () => {
                 <Link url="#" text="Termes & Conditions" />
                 <Link url="#" text="Politique de confidentialité" />
             </div>
-        </div>
+        </footer>
     );
 }
 
