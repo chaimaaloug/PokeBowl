@@ -39,7 +39,7 @@ const Footer = () => {
                             <Icon name='facebook f' size='large' />
                             <p>Bowl Bliss</p>
                         </a>
-                        <a href="https://www.instagram .com" className={style.mediaLink}>
+                        <a href="https://www.instagram.com" className={style.mediaLink}>
                             <Icon name='instagram' size='large' />
                             <p>@Bowl Bliss</p>
                         </a>
