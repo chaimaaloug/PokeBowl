@@ -6,9 +6,11 @@
     color: var(--clr-white);
     background-color: var(--clr-primary);
     border: 1px solid var(--clr-primary);
+    border-radius: 7px;
     min-height: 5.6rem;
     padding: 0 3.2rem; 
     font-size: 16px;
+    font-weight: bold;
 
     &.buttonSecondary {
         background-color: var(--clr-secondary);

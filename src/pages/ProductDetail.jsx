@@ -1,7 +1,6 @@
 //import { useQuery } from "react-query";
 import { useLocation } from "react-router-dom";
 import { Pokebowls } from './ProductList';
-import Button from "../components/Button/Button";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
