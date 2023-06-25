@@ -56,9 +56,9 @@ const Footer = () => {
             </div>
             <div className={style.footerBottom}>
                 <span className="u-color--brown">Copyright © 2023 Bowl Bliss</span>
-                <Link url="#" text="Mentions légales" />
-                <Link url="#" text="Termes & Conditions" />
-                <Link url="#" text="Politique de confidentialité" />
+                <Link url="/mentions-legales" text="Mentions légales" />
+                <Link url="/termes-et-conditions" text="Termes & Conditions" />
+                <Link url="/politique-de-confidentialite" text="Politique de confidentialité" />
             </div>
         </footer>
     );

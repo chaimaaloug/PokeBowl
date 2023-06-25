@@ -6,6 +6,9 @@ import Error from "./pages/Error"
 import ProductList from "./pages/ProductList"
 import ProductDetail from "./pages/ProductDetail"
 import Contact from "./pages/Contact"
+import LegalNotice from "./pages/LegalNotice"
+import TermesAndConditions from "./pages/TermsAndConditions"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
 import './App.scss';
 
 const router = createBrowserRouter([
@@ -25,6 +28,18 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/mentions-legales",
+    element: <LegalNotice />,
+  },
+  {
+    path: "/termes-et-conditions",
+    element: <TermesAndConditions />,
+  },
+  {
+    path: "/politique-de-confidentialite",
+    element: <PrivacyPolicy />,
   },
 ]);
 
