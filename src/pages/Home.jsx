@@ -1,9 +1,9 @@
 
-import HeroSection from "../../components/HeroSection/HeroSection"
-import NewsLetterSection from "../../components/NewsLetterSection/NewsLetterSection"
-import HeroSectionImage from '../../assets/background/hero-1.jpg';
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import HeroSection from "../components/HeroSection/HeroSection"
+import NewsLetterSection from "../components/NewsLetterSection/NewsLetterSection"
+import HeroSectionImage from '../assets/background/hero-1.jpg';
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './ProductCard.module.scss';
+import Button from '../Button/Button';
 
 const CardList = ({ data }) => {
   return (
@@ -18,8 +19,8 @@ const Card = ({ title, image, description }) => {
         <div className={style.ProductCardContent}>
           <h3>{title}</h3>
           <p>{description}</p>
-          <div>
-
+          <div className={style.ProductCardActions}>
+            <Button outline text="Commander"/>
           </div>
         </div>
       </div>

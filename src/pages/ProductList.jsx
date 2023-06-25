@@ -1,68 +1,68 @@
-import Button from "../../components/Button/Button";
-import HeroSection from "../../components/HeroSection/HeroSection";
-import ProductCard from "../../components/ProductCard/ProductCard"
+import Button from "../components/Button/Button";
+import HeroSection from "../components/HeroSection/HeroSection";
+import ProductCard from "../components/ProductCard/ProductCard"
 import React, { useState } from 'react';
-import HeroSectionImage from '../../assets/background/pokebowl-cover.jpg';
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import HeroSectionImage from '../assets/background/pokebowl-cover.jpg';
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const ProductList = () => {
 
     const Pokebowl = [
         {
             id: 1,
-            image: require('../../assets/products/pokebowl-anguille.png'),
+            image: require('../assets/products/pokebowl-anguille.png'),
             title: 'PokéBall Anguille',
-            description: 'Là, tout n’est que rizières noyées, haies de bambous et chapeaux coniques, une Asie éternelle, préservée, vibrante et authentique.',
+            description: "Une expérience gustative exquise avec de l'anguille grillée à la peau croustillante, des légumes frais, des algues croquantes et une sauce unagi savoureuse. Une combinaison audacieuse de saveurs sucrées et salées pour les amateurs de fruits de mer.",
             categories: 'poisson'
         },
         {
             id: 2,
-            image: require('../../assets/products/pokebowl-saumon.png'),
+            image: require('../assets/products/pokebowl-saumon.png'),
             title: 'Poké Ball Saumon',
-            description: 'Là, tout n’est que rizières noyées, haies de bambous et chapeaux coniques, une Asie éternelle, préservée, vibrante et authentique.',
+            description: "Un délice marin rempli de cubes de saumon frais et délicat, de légumes colorés, d'avocat crémeux et d'une sauce ponzu acidulée. Chaque bouchée offre une explosion de saveurs délicates et une texture délicate.",
             categories: 'poisson'
         },
         {
             id: 3,
-            image: require('../../assets/products/pokebowl-thon.png'),
+            image: require('../assets/products/pokebowl-thon.png'),
             title: 'Poké Ball Thon',
-            description: 'Le paradoxe du Cambodge, c’est d’être médiatisé au travers de ce qu’il a donné de plus grandiose, Angkor, et de pire, les Khmers rouges.',
+            description: "Un pokebowl classique mettant en valeur des tranches de thon frais et rouge, des légumes croquants, des avocats crémeux et une sauce soja épicée. Une explosion de saveurs umami et une texture fondante qui satisfera vos papilles.",
             categories: 'poisson'
         },
         {
             id: 4,
-            image: require('../../assets/products/pokebowl-poulet.png'),
+            image: require('../assets/products/pokebowl-poulet.png'),
             title: 'Poké Ball Poulet',
-            description: 'Le Laos cultive une tranquille nonchalance, rythmée par le cours du Mékong, véritable colonne vertébrale du pays.',
+            description: "Un pokebowl réconfortant avec des morceaux de poulet grillé tendres et juteux, des légumes croquants, des avocats crémeux et une sauce teriyaki délicieuse. Une combinaison parfaite de protéines maigres et de saveurs audacieuses.",
             categories: 'viande'
         },
         {
             id: 5,
-            image: require('../../assets/products/pokebowl-anguille.png'),
+            image: require('../assets/products/pokebowl-anguille.png'),
             title: 'PokéBall Vegan',
-            description: 'Là, tout n’est que rizières noyées, haies de bambous et chapeaux coniques, une Asie éternelle, préservée, vibrante et authentique.',
+            description: "Un mélange savoureux de légumes frais et croquants, de tofu mariné délicatement, accompagné d'une vinaigrette légère et de graines de sésame pour une touche de texture. Un festin végétalien rempli de saveurs saines et équilibrées.",
             categories: 'vegan'
         },
         {
             id: 6,
-            image: require('../../assets/products/pokebowl-saumon.png'),
+            image: require('../assets/products/pokebowl-saumon.png'),
             title: 'Poké Ball Boeuf',
-            description: 'Là, tout n’est que rizières noyées, haies de bambous et chapeaux coniques, une Asie éternelle, préservée, vibrante et authentique.',
+            description: "Un délice carné avec des tranches de bœuf tendres et juteuses, des légumes croquants, des oignons caramélisés et une sauce sriracha pour une touche épicée. Un pokebowl qui ravira les amateurs de viande avec sa combinaison de saveurs audacieuses.",
             categories: 'viande'
         },
         {
             id: 7,
-            image: require('../../assets/products/pokebowl-thon.png'),
+            image: require('../assets/products/pokebowl-thon.png'),
             title: 'Poké Ball Carotte',
-            description: 'Le paradoxe du Cambodge, c’est d’être médiatisé au travers de ce qu’il a donné de plus grandiose, Angkor, et de pire, les Khmers rouges.',
+            description: "Un pokebowl végétarien frais et croquant avec des carottes râpées, des légumes colorés et une vinaigrette légère. Une explosion de saveurs végétales saines et délicieuses.",
             categories: 'vegan'
         },
         {
             id: 8,
-            image: require('../../assets/products/pokebowl-poulet.png'),
+            image: require('../assets/products/pokebowl-poulet.png'),
             title: 'Poké Ball Poulet',
-            description: 'Le Laos cultive une tranquille nonchalance, rythmée par le cours du Mékong, véritable colonne vertébrale du pays.',
+            description: "Un pokebowl réconfortant avec des morceaux de poulet grillé tendres et juteux, des légumes croquants, des avocats crémeux et une sauce teriyaki délicieuse. Une combinaison parfaite de protéines maigres et de saveurs audacieuses.",
             categories: 'viande'
         }
     ];
