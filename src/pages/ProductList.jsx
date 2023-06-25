@@ -91,7 +91,7 @@ const ProductList = () => {
     const handleCategoryClick = (category) => {
         setSelectedCategory(category);
 
-        if (category === 'tout') {
+        if (category === 'Tout') {
             setFilteredProducts(Pokebowls);
         } else {
             const filtered = Pokebowls.filter((product) => product.categories === category);
@@ -103,7 +103,7 @@ const ProductList = () => {
         <div>
             <Header />
             <HeroSection text="PokeBowls" image={HeroSectionImage}/> 
-            <div className="u-flex u-flex-justify-center u-flex-gap-24 u-mt-32 u-mb-32">
+            <div className="u-flex u-flex-justify-center u-flex-gap-24 u-mt-64 u-mb-64">
                 {categories.map((category) => (
                     <Button
                         key={category}
