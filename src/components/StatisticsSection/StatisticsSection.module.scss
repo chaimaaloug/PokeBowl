@@ -1,0 +1,20 @@
+.statisticsContainer {
+    display: flex;
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+    color: var(--clr-white);
+    justify-content: space-evenly;
+    background-color: var(--clr-primary);
+    font-family: var(--font-primary);
+}
+
+.statisticsContent h3 {
+    font-size: 28px;
+    margin-bottom: 1.78rem;
+    font-family: var(--font-secondary);
+}
+
+.statisticsContent p {
+    font-size: 20px;
+}
