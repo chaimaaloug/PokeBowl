@@ -1,6 +1,5 @@
 # Bowl Bliss
 
-
 # Fonctionnalités
 
 # Installation
