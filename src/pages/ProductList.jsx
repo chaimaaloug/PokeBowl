@@ -6,9 +6,7 @@ import HeroSectionImage from '../assets/background/pokebowl-cover.jpg';
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-const ProductList = () => {
-
-    const Pokebowl = [
+export const Pokebowls = [
         {
             id: 1,
             image: require('../assets/products/pokebowl-anguille.png'),
@@ -75,19 +73,20 @@ const ProductList = () => {
         }
     ];
 
+const ProductList = () => {
 
     const categories = ['vegan', 'viande', 'poisson', 'tout'];
 
-    const [filteredProducts, setFilteredProducts] = useState(Pokebowl);
+    const [filteredProducts, setFilteredProducts] = useState(Pokebowls);
     const [selectedCategory, setSelectedCategory] = useState('tout');
 
     const handleCategoryClick = (category) => {
         setSelectedCategory(category);
 
         if (category === 'tout') {
-            setFilteredProducts(Pokebowl);
+            setFilteredProducts(Pokebowls);
         } else {
-            const filtered = Pokebowl.filter((product) => product.categories === category);
+            const filtered = Pokebowls.filter((product) => product.categories === category);
             setFilteredProducts(filtered);
         }
     };
