@@ -35,22 +35,22 @@ const Footer = () => {
                         Nos réseaux sociaux
                     </h3>
                     <div className={style.footerLinks}>
-                        <div className={style.mediaLink}>
+                        <a href="https://www.facebook.com" className={style.mediaLink}>
                             <Icon name='facebook f' size='large' />
                             <p>Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.instagram .com" className={style.mediaLink}>
                             <Icon name='instagram' size='large' />
                             <p>@Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.pinterest.com" className={style.mediaLink}>
                             <Icon name='pinterest' size='large' />
                             <p>Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.twitter.com" className={style.mediaLink}>
                             <Icon name='twitter' size='large' />
                             <p>@Bowl Bliss</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
