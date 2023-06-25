@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
-    path: "/product-list",
+    path: "/pokebowls",
     element: <ProductList />,
   },
   {

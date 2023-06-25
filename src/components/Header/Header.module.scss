@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--clr-white);
+    border-radius: 0 0 3.2rem 3.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 32px;
+    min-height: 4.8rem;
+    z-index: 9999;
+    box-shadow: 0px 1px 6px 0px rgba(46, 49, 75, 0.15);
+}
+
+.HeaderNav {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    min-height: 100%;
+}
+
+.HeaderLinks {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    height: 100%;
+}
