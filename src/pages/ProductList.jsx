@@ -1,8 +1,8 @@
-import Button from "../components/Button/Button";
 import HeroSection from "../components/HeroSection/HeroSection";
 import ProductCard from "../components/ProductCard/ProductCard"
 import React, { useState } from 'react';
 import HeroSectionImage from '../assets/background/pokebowl-cover.jpg';
+import Button from "../components/Button/Button";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
@@ -100,7 +100,7 @@ const ProductList = () => {
     };
 
     return (
-        <div className="c-container">
+        <div>
             <Header />
             <HeroSection text="PokeBowls" image={HeroSectionImage}/> 
             <div className="u-flex u-flex-justify-center u-flex-gap-24 u-mt-32 u-mb-32">
