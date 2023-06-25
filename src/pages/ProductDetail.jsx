@@ -22,6 +22,8 @@ const ProductDetail = () => {
             <h1>Product Detail Page</h1>
             <h2>{pokebowl.title}</h2>
             <p>{pokebowl.categories}</p>
+            <p>Normal: {pokebowl.normalPrice} </p>
+            <p>Large: {pokebowl.largePrice} </p>
             <img src={pokebowl.image} alt={pokebowl.title} />
             <p>{pokebowl.description}</p>
         </div>    
