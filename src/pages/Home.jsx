@@ -15,7 +15,7 @@ const Home = () => {
 
     for (let index = 0; index < Pokebowls.length; index++) {
         const pokebowlBest = Pokebowls[index];
-        if (pokebowlBest.id == id) {
+        if (pokebowlBest.id.toString() === id) {
             pokebowl = pokebowlBest;
             break;
         }
