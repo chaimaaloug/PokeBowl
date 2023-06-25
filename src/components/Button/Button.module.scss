@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 1.6rem;
-    color: var(--clr-brown) !important;
+    color: var(--clr-primary) !important;
     background-color: var(--clr-primary);
     border-radius: 7px;
     min-height: 5.6rem;
@@ -24,8 +24,8 @@
 }
 
 .buttonOutline {
-    color: var(--clr-primary);
-    background-color: var(--clr-white);
+    color: var(--clr-white);
+    background-color: var(--clr-brown);
     border: 1px solid var(--clr-primary);
 
     &.buttonSecondary {
