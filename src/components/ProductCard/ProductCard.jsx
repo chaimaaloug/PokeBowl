@@ -6,14 +6,15 @@ const CardList = ({ data }) => {
   return (
     <div className={style.ProductCardList}>
       {data.map((item, index) => (
-        <Card key={index} title={item.title} image={item.image} description={item.description} />
+        <Card key={index} title={item.title} image={item.image} description={item.description} url={item.url} />
       ))}
     </div>
   );
 };
 
-const Card = ({ title, image, description }) => {
+const Card = ({ title, image, description, url }) => {
   return (
+    <a href={url}>
       <div className={style.ProductCard}>
         <img src={image} alt={title} />
         <div className={style.ProductCardContent}>
@@ -24,6 +25,7 @@ const Card = ({ title, image, description }) => {
           </div>
         </div>
       </div>
+    </a>
   );
 };
 
