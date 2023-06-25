@@ -1,4 +1,4 @@
-# Poke my Bowl
+# Bowl Bliss
 
 # Installation et fonctionnement
 

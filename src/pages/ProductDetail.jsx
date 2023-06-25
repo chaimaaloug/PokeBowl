@@ -1,7 +1,6 @@
 //import { useQuery } from "react-query";
 import { useLocation } from "react-router-dom";
 import { Pokebowls } from './ProductList';
-import Button from "../components/Button/Button";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
@@ -13,7 +12,7 @@ const ProductDetail = () => {
 
     for (let index = 0; index < Pokebowls.length; index++) {
         const pokebowl1 = Pokebowls[index];
-        if (pokebowl1.id == id) {
+        if (pokebowl1.id === id) {
             pokebowl = pokebowl1;
             break;
         }
