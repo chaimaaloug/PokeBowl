@@ -1,4 +1,3 @@
-//import { useQuery } from "react-query";
 import { useLocation } from "react-router-dom";
 import { Pokebowls } from './ProductList';
 import Header from "../components/Header/Header";
@@ -17,8 +16,6 @@ const ProductDetail = () => {
             break;
         }
     }
-
-    console.log(pokebowl);
 
     return (
         <div>
