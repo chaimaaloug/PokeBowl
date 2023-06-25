@@ -1,0 +1,28 @@
+.l__productdetail-container {
+    background-color: var(--clr-background);
+    color: var(--clr-brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0;
+
+}
+
+.l__productdetail-content {
+    width: 580px;
+}
+
+.l__productdetail-content h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.l__productdetail-content p {
+    font-size: 18px;
+}
+
+.l__productdetail-content .category {
+    font-weight: bold;
+    font-size: 22px;
+}

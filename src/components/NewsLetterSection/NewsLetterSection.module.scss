@@ -2,6 +2,7 @@
     padding: 5rem 2rem;
     text-align: center;
     font-family: var(--font-primary);
+    background-color: var(--clr-background);
 }
 
 .formSubscribe {
@@ -21,6 +22,7 @@
 
 .description {
     margin-top: 1rem;
+    color: var(--clr-brown);
 }
 
 .button {
@@ -30,7 +32,7 @@
     border-radius: 7px;
     outline: none;
     border: none;
-    color: var(--clr-white);
+    color: var(--clr-brown);
     padding: 0 28px;
     font-size: 18px;
     font-family: var(--font-secondary);

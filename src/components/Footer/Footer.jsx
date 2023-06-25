@@ -21,17 +21,17 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h3 className="u-color--white u-font-20">
+                    <h3 className="u-color--brown u-font-20">
                         Bowl Bliss
                     </h3>
                     <div className={style.footerLinks}>
-                        <Link url="/about" text="Qui sommes-nous ?" />
-                        <Link url="#" text="Besoin d’aide ?" />
+                        <Link url="/" text="Home" />
+                        <Link url="/pokebowls" text="Nos Pokebowls" />
                         <Link url="/contact" text="Nous contacter" />
                     </div>
                 </div>
                 <div>
-                    <h3 className="u-color--white u-font-20">
+                    <h3 className="u-color--brown u-font-20">
                         Nos réseaux sociaux
                     </h3>
                     <div className={style.footerLinks}>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={style.footerBottom}>
-                <span className="u-color--white">Copyright © 2023 Bowl Bliss</span>
+                <span className="u-color--brown">Copyright © 2023 Bowl Bliss</span>
                 <Link url="#" text="Mentions légales" />
                 <Link url="#" text="Termes & Conditions" />
                 <Link url="#" text="Politique de confidentialité" />
