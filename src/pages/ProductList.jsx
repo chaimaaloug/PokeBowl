@@ -14,7 +14,8 @@ export const Pokebowls = [
             description: "Une expérience gustative exquise avec de l'anguille grillée à la peau croustillante, des légumes frais, des algues croquantes et une sauce unagi savoureuse. Une combinaison audacieuse de saveurs sucrées et salées pour les amateurs de fruits de mer.",
             categories: 'Poisson',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            bestSeller: true,
         },
         {
             id: 2,
@@ -23,7 +24,8 @@ export const Pokebowls = [
             description: "Un délice marin rempli de cubes de saumon frais et délicat, de légumes colorés, d'avocat crémeux et d'une sauce ponzu acidulée. Chaque bouchée offre une explosion de saveurs délicates et une texture délicate.",
             categories: 'Poisson',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            bestSeller: true
         },
         {
             id: 3,
@@ -32,7 +34,8 @@ export const Pokebowls = [
             description: "Un pokebowl classique mettant en valeur des tranches de thon frais et rouge, des légumes croquants, des avocats crémeux et une sauce soja épicée. Une explosion de saveurs umami et une texture fondante qui satisfera vos papilles.",
             categories: 'Poisson',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            bestSeller: true
         },
         {
             id: 4,
