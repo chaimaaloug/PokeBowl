@@ -29,32 +29,27 @@
 
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--clr-white);
-    padding: 10px 80px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--clr-primary);
+  padding: 10px 80px;
+}
   
-  .navbar-logo img {
-    height: 50px;
-    width: auto;
-  }
+.navbar-logo img {
+  height: 50px;
+  width: auto;
+}
   
-  .navbar-links a {
-    font-size: 20px;
-    margin-left: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--clr-primary);
-    font-family: var(--font-primary);
-  }
+.navbar-links a {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--clr-brown);
+  font-family: var(--font-primary);
+}
 
-  .navbar-links a:hover {
-    color: var(--clr-primary);
-  }
-
+.navbar-links a:hover {
+  color: var(--clr-brown);
+}

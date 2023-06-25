@@ -100,9 +100,9 @@ const ProductList = () => {
     };
 
     return (
-        <div>
+        <div className="l__productlist-conatainer">
             <Header />
-            <HeroSection text="PokeBowls" image={HeroSectionImage}/> 
+            <HeroSection text="Nos PokeBowls" image={HeroSectionImage}/> 
             <div className="u-flex u-flex-justify-center u-flex-gap-24 u-mt-64 u-mb-64">
                 {categories.map((category) => (
                     <Button

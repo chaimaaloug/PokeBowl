@@ -23,14 +23,15 @@ const ProductDetail = () => {
     return (
         <div>
             <Header />
-            <div>
-                <h1>Product Detail Page</h1>
-                <h2>{pokebowl.title}</h2>
-                <p>{pokebowl.categories}</p>
-                <p>Normal: {pokebowl.normalPrice} </p>
-                <p>Large: {pokebowl.largePrice} </p>
-                <img src={pokebowl.image} alt={pokebowl.title} />
-                <p>{pokebowl.description}</p>
+            <div className="l__productdetail-container">
+                <div className="l__productdetail-content">
+                    <h2>{pokebowl.title}</h2>
+                    <img src={pokebowl.image} alt={pokebowl.title} />
+                    <p className="category">{pokebowl.categories}</p>
+                    <p>Normal: {pokebowl.normalPrice} </p>
+                    <p>Large: {pokebowl.largePrice} </p>
+                    <p>{pokebowl.description}</p>
+                </div>
             </div>
             <Footer />
         </div>

@@ -12,7 +12,8 @@
 .footerBottom {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    font-size: 18px;
 }
 
 .footerLinks {
@@ -27,16 +28,19 @@
 
 .footerLinks a, .footerBottom a {
     text-decoration: none;
-    color: var(--clr-white);
+    color: var(--clr-brown);
+    font-size: 18px;
     margin-bottom: 2rem;
 }
 
 .mediaLink {
     display: flex;
-    color: var(--clr-white);
+    color: var(--clr-brown);
     margin-bottom: 2rem;
+    font-size: 18px;
 }
 
 .mediaLink p{
     margin-left: 1rem;
+    color: var(--clr-brown);
 }

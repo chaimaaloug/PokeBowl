@@ -1,5 +1,4 @@
 .background {
-	// background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/background/hero-1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -15,7 +14,7 @@
 }
 
 .title {
-	font-size: 44px;
-	color: white;
+	font-size: 64px;
+	color: var(--clr-primary);
 }
 
