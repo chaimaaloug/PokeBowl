@@ -16,6 +16,7 @@ export const Pokebowls = [
             normalPrice: '10.95€',
             largePrice: '13.95€',
             bestSeller: true,
+            allergene: 'Sésame'
         },
         {
             id: 2,
@@ -35,7 +36,8 @@ export const Pokebowls = [
             categories: 'Poisson',
             normalPrice: '10.95€',
             largePrice: '13.95€',
-            bestSeller: true
+            bestSeller: true,
+            allergene: 'Crustacé'
         },
         {
             id: 4,
@@ -44,7 +46,8 @@ export const Pokebowls = [
             description: "Un pokebowl réconfortant avec des morceaux de poulet grillé tendres et juteux, des légumes croquants, des avocats crémeux et une sauce teriyaki délicieuse. Une combinaison parfaite de protéines maigres et de saveurs audacieuses.",
             categories: 'Viande',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            allergene: 'Gluten'
         },
         {
             id: 5,
@@ -62,7 +65,8 @@ export const Pokebowls = [
             description: "Un délice carné avec des tranches de bœuf tendres et juteuses, des légumes croquants, des oignons caramélisés et une sauce sriracha pour une touche épicée. Un pokebowl qui ravira les amateurs de viande avec sa combinaison de saveurs audacieuses.",
             categories: 'Viande',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            allergene: 'Gluten'
         },
         {
             id: 7,
@@ -80,7 +84,8 @@ export const Pokebowls = [
             description: "Un pokebowl réconfortant avec des morceaux de poulet grillé tendres et juteux, des légumes croquants, des avocats crémeux et une sauce teriyaki délicieuse. Une combinaison parfaite de protéines maigres et de saveurs audacieuses.",
             categories: 'Viande',
             normalPrice: '10.95€',
-            largePrice: '13.95€'
+            largePrice: '13.95€',
+            allergene: 'Gluten'
         }
     ];
 

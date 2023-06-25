@@ -1,0 +1,12 @@
+.tag {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.6rem;
+    min-height: 3.8rem;
+    font-size: 1.2rem;
+    border-radius: 30rem;
+    background-color: var(--clr-secondary);
+    color: var(--clr-black);
+    font-weight: 700;
+}
