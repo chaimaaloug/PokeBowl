@@ -2,6 +2,7 @@
 .ProductCardList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 4rem 3.2rem;
     padding-bottom: 2.4rem;
     max-width: 130rem;
