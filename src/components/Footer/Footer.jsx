@@ -35,30 +35,30 @@ const Footer = () => {
                         Nos réseaux sociaux
                     </h3>
                     <div className={style.footerLinks}>
-                        <div className={style.mediaLink}>
+                        <a href="https://www.facebook.com" className={style.mediaLink}>
                             <Icon name='facebook f' size='large' />
                             <p>Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.instagram .com" className={style.mediaLink}>
                             <Icon name='instagram' size='large' />
                             <p>@Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.pinterest.com" className={style.mediaLink}>
                             <Icon name='pinterest' size='large' />
                             <p>Bowl Bliss</p>
-                        </div>
-                        <div className={style.mediaLink}>
+                        </a>
+                        <a href="https://www.twitter.com" className={style.mediaLink}>
                             <Icon name='twitter' size='large' />
                             <p>@Bowl Bliss</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div className={style.footerBottom}>
                 <span className="u-color--brown">Copyright © 2023 Bowl Bliss</span>
-                <Link url="#" text="Mentions légales" />
-                <Link url="#" text="Termes & Conditions" />
-                <Link url="#" text="Politique de confidentialité" />
+                <Link url="/mentions-legales" text="Mentions légales" />
+                <Link url="/termes-et-conditions" text="Termes & Conditions" />
+                <Link url="/politique-de-confidentialite" text="Politique de confidentialité" />
             </div>
         </footer>
     );
