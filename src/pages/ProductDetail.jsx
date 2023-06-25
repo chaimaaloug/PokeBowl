@@ -12,7 +12,7 @@ const ProductDetail = () => {
 
     for (let index = 0; index < Pokebowls.length; index++) {
         const pokebowl1 = Pokebowls[index];
-        if (pokebowl1.id == id) {
+        if (pokebowl1.id.toString() === id) {
             pokebowl = pokebowl1;
             break;
         }
