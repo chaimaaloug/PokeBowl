@@ -8,7 +8,7 @@ Inscrivez-vous à notre newsletter pour recevoir nos dernières infos.
 - Page qui liste les différents poké bowls
 - Page qui détail le poké bowl sélectionné
 - Page de contact
-- Page 404 personnalisée
+- Page d'Erreur personnalisée
 - Inscription à la newsletter avec Firebase
 
 # Installation
@@ -28,3 +28,10 @@ Inscrivez-vous à notre newsletter pour recevoir nos dernières infos.
 
 ## Page Contact
 ![screencapture-localhost-3002-contact-2023-06-25-21_59_35](https://github.com/chaimaaloug/PokeBowl/assets/49941834/8f8714d7-340a-46aa-a4d1-935b77a261b4)
+
+## Page 404
+![screencapture-localhost-3002-test-2023-06-25-22_30_36](https://github.com/chaimaaloug/PokeBowl/assets/49941834/82b97d20-04d8-4fb6-baf9-1dc2eb00bb0c)
+
+
+
+
