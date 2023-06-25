@@ -1,20 +1,21 @@
 import React from 'react';
 import style from './ProductCard.module.scss';
 import Button from '../Button/Button';
+import ProductDetail from '../../pages/ProductDetail';
 
 const CardList = ({ data }) => {
   return (
     <div className={style.ProductCardList}>
       {data.map((item, index) => (
-        <Card key={index} title={item.title} image={item.image} description={item.description} url={item.url} />
+        <Card key={index} title={item.title} image={item.image} description={item.description} id={item.id} />
       ))}
     </div>
   );
 };
 
-const Card = ({ title, image, description, url }) => {
+const Card = ({ title, image, description, id }) => {
   return (
-    <a href={url}>
+    <a href={"/product-detail?id=" + id}>
       <div className={style.ProductCard}>
         <img src={image} alt={title} />
         <div className={style.ProductCardContent}>
