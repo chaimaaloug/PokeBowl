@@ -15,15 +15,13 @@ const CardList = ({ data }) => {
 
 const Card = ({ title, image, description, id }) => {
   return (
-    <a href={"/product-detail?id=" + id}>
-      <div className={style.ProductCard}>
-        <img src={image} alt={title} />
-        <div className={style.ProductCardContent}>
-          <h3>{title}</h3>
-          <p>{description}</p>
-          <div className={style.ProductCardActions}>
-            <Button outline text="Commander"/>
-          </div>
+    <a href={"/product-detail?id=" + id} className={style.ProductCard}>
+      <img src={image} alt={title} />
+      <div className={style.ProductCardContent}>
+        <h3 className='u-font-24'>{title}</h3>
+        <p>{description}</p>
+        <div className={style.ProductCardActions}>
+          <Button outline text="Commander" />
         </div>
       </div>
     </a>

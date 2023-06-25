@@ -16,7 +16,7 @@
     color: var(--clr-black);
     overflow: hidden;
     position: relative;
-    border: 1px solid #000;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border-radius: 1.6rem;
     display: flex;
     flex-direction: column;
@@ -24,6 +24,7 @@
     transition: transform 0.3s;
 
     &:hover {
+        color: var(--clr-black);
         transform: scale(1.1);
     }
 }
